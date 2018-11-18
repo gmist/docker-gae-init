@@ -1,4 +1,4 @@
-FROM gmist/gcloud-app-engine-python:v214.0.0
+FROM gmist/gcloud-app-engine-python:v225.0.0
 MAINTAINER Serg Baburin <dev@babur.in>
 
 # prepare requirements
