@@ -20,3 +20,8 @@ RUN echo 'unsafe-perm = true' >> /root/.npmrc \
 # create app directory
 RUN mkdir /var/app
 WORKDIR /var/app
+
+EXPOSE 8080
+EXPOSE 8081
+EXPOSE 3000
+EXPOSE 3001
